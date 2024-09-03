@@ -1,4 +1,4 @@
-name: Second module
+name: Hello name
 description: Module to print my name
 type: module
 core_version_requirement: ^10 || ^11 || ^12
