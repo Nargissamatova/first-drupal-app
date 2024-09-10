@@ -19,6 +19,6 @@ hello_name.greeting:
   path: '/hello/{name}'
   defaults:
     _controller: '\Drupal\hello_name\Controller\HelloNameController::greeting'
-    _title: "Greeting with url"
+    _title: "Personalized greeting"
   requirements:
     _permission: "access content"
