@@ -1,0 +1,8 @@
+uuid: 9660c528-8565-4d80-8176-963134366acd
+langcode: en
+status: true
+dependencies: {  }
+id: my_sidebar
+label: 'my sidebar'
+revision: false
+description: 'something here'

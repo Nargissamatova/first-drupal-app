@@ -1,0 +1,80 @@
+uuid: b0e795d6-6047-4857-857b-9409ef35ac56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_add_your_email
+    - field.field.user.user.field_enter_date
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - datetime
+    - field_group
+    - image
+    - user
+third_party_settings:
+  field_group:
+    group_form_trial:
+      children: {  }
+      label: 'form trial'
+      region: hidden
+      parent_name: ''
+      weight: 20
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: demo
+        required_fields: true
+_core:
+  default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  contact:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_add_your_email:
+    type: email_default
+    weight: 7
+    region: content
+    settings:
+      placeholder: admin@gmail.com
+      size: 60
+    third_party_settings: {  }
+  field_enter_date:
+    type: datetime_default
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  language:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    type: image_image
+    weight: -1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden: {  }

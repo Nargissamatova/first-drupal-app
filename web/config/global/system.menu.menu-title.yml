@@ -1,0 +1,8 @@
+uuid: 61ea4f46-2b49-47ea-8ff9-31b72b640a6f
+langcode: en
+status: true
+dependencies: {  }
+id: menu-title
+label: 'menu title'
+description: 'Administrative summary'
+locked: false

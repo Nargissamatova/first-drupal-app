@@ -1,0 +1,21 @@
+uuid: ff4abd5b-902f-4bc3-940a-5864ba48c193
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.article
+  module:
+    - datetime
+id: node.article.field_date
+field_name: field_date
+entity_type: node
+bundle: article
+label: date
+description: 'something in help text'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,22 @@
+uuid: 7886444d-abc8-4626-8875-653dde5f55dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ruhi
+_core:
+  default_config_hash: UwY0mRxOiK3osgwS7m6BBZywbn-Cw7xZ969ygYGKhWA
+id: ruhi_content
+theme: ruhi
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

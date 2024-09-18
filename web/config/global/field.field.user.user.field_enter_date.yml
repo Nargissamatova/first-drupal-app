@@ -1,0 +1,21 @@
+uuid: 76c9b0dc-6c7a-4e3e-b64f-0a91ab97c495
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_enter_date
+  module:
+    - datetime
+    - user
+id: user.user.field_enter_date
+field_name: field_enter_date
+entity_type: user
+bundle: user
+label: 'enter date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

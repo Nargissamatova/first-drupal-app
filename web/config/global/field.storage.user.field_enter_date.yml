@@ -1,0 +1,20 @@
+uuid: 556ebf85-8bc9-4f61-839d-d53781cb4ac1
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - user
+id: user.field_enter_date
+field_name: field_enter_date
+entity_type: user
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 10
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,9 @@
+name: React List Drupal 
+description: "A module that loads a list of articles"
+type: module
+base theme: olivero
+core_version_requirement: ^9 || ^10 || ^11
+
+
+dependencies:
+  - drupal:node

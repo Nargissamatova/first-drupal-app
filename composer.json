@@ -21,6 +21,7 @@
         "drupal/core-recommended": "^11.0",
         "drupal/devel": "^5.3",
         "drupal/edux": "^11.0",
+        "drupal/field_group": "^4.0@alpha",
         "drupal/remove_meta_info": "^1.0",
         "drupal/ruhi": "^11.0",
         "drupal/thex": "^11.0",

@@ -1,0 +1,25 @@
+uuid: 7b861bc8-07f0-4612-a01e-427cc67d9c85
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f463df8a-9747-430f-85f4-2f7af357b9c8'
+  module:
+    - block_content
+  theme:
+    - react_hello
+id: react_hello_mynewblock
+theme: react_hello
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:f463df8a-9747-430f-85f4-2f7af357b9c8'
+settings:
+  id: 'block_content:f463df8a-9747-430f-85f4-2f7af357b9c8'
+  label: 'my new block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

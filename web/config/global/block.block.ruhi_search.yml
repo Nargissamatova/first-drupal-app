@@ -1,0 +1,23 @@
+uuid: f0d45fa9-1a4a-4dd1-861a-3ea7e15380bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - ruhi
+_core:
+  default_config_hash: Lvb2Z7X05mC4iCNQC49-7RywhCNRP-HJ-ugcUrSv-jY
+id: ruhi_search
+theme: ruhi
+region: search_box
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

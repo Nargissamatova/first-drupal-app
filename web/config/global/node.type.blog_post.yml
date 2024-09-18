@@ -1,0 +1,18 @@
+uuid: 6564cf47-1399-4c4c-9a5a-fa9f49cec8f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Blog post'
+type: blog_post
+description: 'just a block postx'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

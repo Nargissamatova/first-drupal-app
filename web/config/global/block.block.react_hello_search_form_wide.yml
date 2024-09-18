@@ -1,0 +1,23 @@
+uuid: e8634ec0-f9c2-43f1-8cc8-b694289a90c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - react_hello
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: react_hello_search_form_wide
+theme: react_hello
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

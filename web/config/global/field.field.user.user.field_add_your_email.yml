@@ -1,0 +1,20 @@
+uuid: 0909fc62-5f58-4c00-900d-e15b89a468a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_add_your_email
+  module:
+    - user
+id: user.user.field_add_your_email
+field_name: field_add_your_email
+entity_type: user
+bundle: user
+label: 'Add your email :)'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

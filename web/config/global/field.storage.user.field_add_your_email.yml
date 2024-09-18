@@ -1,0 +1,18 @@
+uuid: f3d0064e-cfc2-40bd-9ee3-0ea22ae6a64e
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_add_your_email
+field_name: field_add_your_email
+entity_type: user
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 200
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
